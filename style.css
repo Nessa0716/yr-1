@@ -1,0 +1,71 @@
+body {
+ background-color: #d1ffeb;
+  font-family: 'Noto Serif HK', serif;
+  font-size:25px;
+
+}
+nav{
+  text-shadow: #00ffb3 1px 0 10px;
+  font-family: 'Noto Serif HK', serif;
+  font-size:25px;
+}
+
+#name{
+  text-align: center;
+font-size:60px;   
+text-shadow: #ffffff 3px 0 2px;
+  font-family: 'Noto Serif Display', serif;
+}    
+p{
+  width:900px; 
+  border-radius:100px; 
+  margin: 200px; 
+
+}
+
+.card {
+font-family: 'Poiret One', cursive;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #383838;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+img {
+  width:100px;
+  height:100px;
+}
+
+#worksimg {
+    width:100px;
+  height:100px;
+}
+
+.self {
+  width: 40%;
+}
+
+h2 {
+  font-family: 'Noto Serif HK', serif;
+  font-size:25px;
+}
